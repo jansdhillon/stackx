@@ -1,1 +1,15 @@
-/front-end/node_modules
+/next-app/node_modules
+/next-app/.next
+# misc
+.DS_Store
+
+# local env files
+/next-app/.env*.local
+
+
+# next.js
+/next-app/.next/
+/next-app/out/
+
+# production
+/next-app/build
