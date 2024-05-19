@@ -1,0 +1,11 @@
+services:
+  next-app:
+    build:
+      context: ./next-app
+    ports:
+      - 3000:3000
+  fastapi-server:
+    build:
+      context: ./fastapi-server
+    ports:
+      - 8000:8000
