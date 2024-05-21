@@ -4,6 +4,8 @@ services:
       context: ./next-app
     ports:
       - 3000:3000
+    depends_on:
+      - fastapi-server
   fastapi-server:
     build:
       context: ./fastapi-server

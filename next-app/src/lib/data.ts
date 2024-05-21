@@ -1,10 +1,11 @@
-export const stacks = [
+export const stacks: StackType[] = [
     {
-        title: "Item 1",
-        content: "My first item"
+        title: "Stack 1",
+        content: "My first stack",
+        description: "This is my first stack object"
     },
     {
-        title: "Item 2",
-        content: "My second item"
+        title: "Stack 2",
+        content: "My second stack"
     }
 ]

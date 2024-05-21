@@ -28,7 +28,7 @@ export const Nav = ({ ...props }) => {
   return (
     <div
       className={cn(
-        "bg-background text-lg md:text-4xl font-bold flex items-start text-left w-full flex-col p-3 shadow-sm fixed z-50",
+        "bg-background text-lg md:text-4xl font-bold flex items-start text-left w-full  p-3 shadow-sm sticky top-0 z-50",
         props.className
       )}
     >
